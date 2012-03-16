@@ -7,3 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
+Usuario.create(nombre:"Gianfranco",apepaterno:"Caceres", apematerno:"Soto", email:"gfcs.798 ", fecnac:" ")
+Usuario.create(nombre:"Juan",apepaterno:"Perez", apematerno:"Soto", email:"gfcs.798 ", fecnac:" ")
+Rol.create(descripcion:"Admin")
+Rol.create(descripcion:"User")
