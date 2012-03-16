@@ -11,3 +11,6 @@ Usuario.create(nombre:"Gianfranco",apepaterno:"Caceres", apematerno:"Soto", emai
 Usuario.create(nombre:"Juan",apepaterno:"Perez", apematerno:"Soto", email:"gfcs.798 ", fecnac:" ")
 Rol.create(descripcion:"Admin")
 Rol.create(descripcion:"User")
+u = Usuario.find(1)
+r = Rol.find(1)
+u.rols << r
